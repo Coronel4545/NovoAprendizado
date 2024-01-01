@@ -14,7 +14,7 @@
                 Seja Bem Vindo
                 <label id="Dinamico"></label>!
             </label>
-            <script src="caminho_do_seu_arquivo_js.js"></script>
+            <script src="/ImplementandoNome/ColetandoNome.js"></script>
         </div>
         <div id="Detalhes_Item">
             <div class="Formulario">
@@ -22,13 +22,48 @@
                     <input type="text" id="Nome_Produto" placeholder="Digite o nome do produto">
                     <input type="text" id="Marca" placeholder="Digite nome da marca do produto">
                     <input type="text" id="Modelo" placeholder="Digite o nome do Modelo">
-                    <input type="text" placeholder="Informe A cor">
-                    <input type="text" placeholder="Valor De venda">
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <input type="text" placeholder="Informe A cor" id="CorDoProdutoo">
+                    <input type="text" placeholder="Valor De venda" id="ValorProduto">
+                    <textarea name="" id="Descri" cols="30" rows="10"></textarea>
                 </form>
-                <button id="concluir">PUBLICAR</button>
+                <button id="concluir" onclick="Coletando();">PUBLICAR</button>
+                <script src="/CapturandoDadosJs/ColetandoDados.js"></script>
             </div>
         </div>
+    </div>
+    <div id="Implementacao">
+            <div class="ImplementacaoDados">
+                <div class="NomeDoproduto2">
+                    Conhecido Como: <span id="Geral">
+
+                    </span>
+                </div>
+                <div>
+                       NOME DO PRODUTO: <span id="NOMEDOPRODUTO2">
+
+                        </span>
+                </div>
+                <div >
+                   MARCA DO PRODUTO: <span id="MARCADOPRODUTO3">
+
+                   </span>
+                </div>
+                <div>
+                    MODELO DO PRODUTO: <span id="MODELODOPRODUTO4">
+
+                    </span>
+                </div>
+                <div>
+                  COR DO PRODUTO:  <span id="CORDOPRODUTO5">
+
+                    </span>
+                </div>
+                <div>
+                    <span id="VALORDOPRODUTO6">
+
+                    </span>
+                </div>
+            </div>
     </div>
 </body>
 </html>
