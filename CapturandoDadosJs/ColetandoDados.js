@@ -15,6 +15,8 @@ function Coletando(){
                 //Podemos definir explicitamente uma conversão de tipo de dado de entrada. Exemplo: String >> Number
               
 
+                let Descricao= document.getElementById('Descri').value;
+
                  console.log(ValorDoProduto)
                 if(typeof ValorDoProduto === ""){
                     alert('O valor não pode ser vazio')
@@ -59,7 +61,7 @@ function Coletando(){
     document.getElementById('MODELODOPRODUTO4') .innerHTML= NomeModelo;
     document.getElementById('CORDOPRODUTO5').innerHTML=CorPorduto;
     document.getElementById('VALORDOPRODUTO6').innerHTML= `VALOR DO PRODUTO: $ ${ValorDoProduto}`;         
-                
+    document.getElementById('Description').innerHTML= Descricao;            
 
      
 
